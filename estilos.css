@@ -59,11 +59,30 @@
   text-align: center;
   min-width: 50%;
 }
+/* //Para cuando se muestren solo 2, uso en mascotas */
+.elementos-2 {
+  min-width: 50%;
+}
+/* //Para cuando se quieren mostrar 4 */
+.elementos-4 {
+  min-width: 25%;
+}
+/* //Para cuando se quieran mostrar 5, si se quieren mostrar más modificar el número, sobre todo para colaboradores que pueden ser muchos */
+.elementos-5 {
+  min-width: 20%;
+}
 
-.tabla__elemento img,
-.tabla__elemento-mascotas img {
+.tabla__elemento-4 {
+  margin-top: 0.5em;
+  text-align: center;
+  min-width: 20%;
+  align-content: center;
+}
+
+.tabla__elemento img {
   width: 10em;
   height: 10em;
+  border-radius: 150px;
 }
 
 .tabla__elemento h3 {
